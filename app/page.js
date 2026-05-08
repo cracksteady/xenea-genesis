@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0xD463a94c34fbEDE5513761D3dBD8e8C58eafd576";
+const CONTRACT_ADDRESS = "0x386f42d837f7106609592119C7Efb910Fcab4989";
 
 const ABI = [
   "function mint(string memory metadataURI) public",
