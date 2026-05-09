@@ -11,7 +11,7 @@ const ABI = [
   "function hasMinted(address) public view returns(bool)"
 ];
 
-const METADATA_URI = "ipfs://bafkreigu22qfa2eivawklotfp4kt5s3em3dshsizg2zv25irsxrtmwr7dq";
+const METADATA_URI = "https://lime-used-bug-551.mypinata.cloud/ipfs/bafkreigu22qfa2eivawklotfp4kt5s3em3dshsizg2zv25irsxrtmwr7dq";
 
 export default function Home() {
 
