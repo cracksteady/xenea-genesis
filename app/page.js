@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0x386f42d837f7106609592119C7Efb910Fcab4989";
+const CONTRACT_ADDRESS = "0x7669e8b5ca288c6982bdbade8a504648daee8d4c";
 
 const ABI = [
   "function mint(string memory metadataURI) public",
@@ -11,7 +11,7 @@ const ABI = [
   "function hasMinted(address) public view returns(bool)"
 ];
 
-const METADATA_URI = "ipfs://QmbbiswXaZ9z1qFwRsNzUKDkk5QWxQ1ujubTr7Eb6iFRhN";
+const METADATA_URI = "ipfs://bafkreigu22qfa2eivawklotfp4kt5s3em3dshsizg2zv25irsxrtmwr7dq";
 
 export default function Home() {
 
