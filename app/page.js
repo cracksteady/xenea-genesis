@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0x7669e8b5ca288c6982bdbade8a504648daee8d4c";
+const CONTRACT_ADDRESS = "0xFE5Ad1cCD650759C537e382e4B28d96D1D968633";
 
 const ABI = [
   "function mint(string memory metadataURI) public",
@@ -11,7 +11,7 @@ const ABI = [
   "function hasMinted(address) public view returns(bool)"
 ];
 
-const METADATA_URI = "https://lime-used-bug-551.mypinata.cloud/ipfs/bafkreibt5zj5pxzv72ulpy6jvlpapf6k7tw4j7cof4xkug3g643bfbdwr4";
+const METADATA_URI = "https://lime-used-bug-551.mypinata.cloud/ipfs/bafkreihgrqxn5zf7lglnl5v4lbu4bgo4tmzbepfvjo2qlpqjr2brxt7q7i";
 
 export default function Home() {
 
